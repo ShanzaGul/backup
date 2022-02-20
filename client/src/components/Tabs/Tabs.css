@@ -1,0 +1,29 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #41331c;;
+}
+
+.tabs-nav-link{
+    display: flex !important;
+    flex-direction: row !important;
+    border-top-right-radius: 25px !important;
+    border-bottom-right-radius:25px !important;
+    color:white !important;
+}
+
+.tabs-nav-layout{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+
+@media screen and (max-width: 766px) {
+    .tabs-nav-layout{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center;
+    }
+    .tabs-nav-op{
+        display: none !important;
+    }
+  }

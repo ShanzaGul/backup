@@ -1,0 +1,18 @@
+.App {
+  color:#e8eaed;
+}
+body{
+  background-color: #202124 ;
+  overflow: -moz-scrollbars-vertical !important; 
+  overflow-y: scroll !important;
+}
+
+
+.bg-clr-dark{
+  background-color: #202124 ;
+}
+
+.whole-app{
+  padding: 12px;
+}
+
